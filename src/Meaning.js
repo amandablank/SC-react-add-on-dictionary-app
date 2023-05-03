@@ -2,8 +2,6 @@ import React from "react";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
-  console.log(props.obj_meaning);
-
   let exampleText;
   if (props.obj_meaning.example) {
     exampleText = (

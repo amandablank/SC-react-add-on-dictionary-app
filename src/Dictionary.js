@@ -14,7 +14,8 @@ export default function Dictionary() {
   function search(event) {
     event.preventDefault();
 
-    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=f5a9f38100065t0934bo1b43d42ba03a`;
+    let apiKey = "f5a9f38100065t0934bo1b43d42ba03a";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -30,6 +31,3 @@ export default function Dictionary() {
     </div>
   );
 }
-
-//https://api.shecodes.io/dictionary/v1/define?word=sunset&key=f5a9f38100065t0934bo1b43d42ba03a
-//apiKey = f5a9f38100065t0934bo1b43d42ba03a
