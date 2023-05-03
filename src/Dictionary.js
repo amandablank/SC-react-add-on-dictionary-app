@@ -36,7 +36,7 @@ export default function Dictionary() {
         <form onSubmit={search}>
           <input
             type="search"
-            placeholder="Which word do you want to look up?"
+            placeholder="What word do you want to look up?"
             onChange={handleKeywordChange}
           />
         </form>

@@ -3,7 +3,7 @@
   padding: 40px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(165, 164, 164, 0.4);
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .Dictionary input {
