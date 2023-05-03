@@ -1,1 +1,35 @@
+.Dictionary section {
+  background-color: rgb(243, 240, 235);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(165, 164, 164, 0.4);
+  margin: 20px 0;
+}
 
+.Dictionary input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(165, 164, 164, 0.8);
+}
+
+.Dictionary .hint {
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgba(117, 115, 115, 0.8);
+}
+
+.Dictionary div {
+  padding-top: 6px;
+  padding-bottom: 30px;
+}
+
+.book-icon {
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+div .book-icon {
+  padding-bottom: 16px;
+}

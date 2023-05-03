@@ -1,0 +1,16 @@
+.Synonyms ul {
+  list-style-type: circle;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 18px;
+}
+
+.Synonyms li {
+  padding-top: 6px;
+}
+
+section .Synonyms {
+  padding: 0 auto;
+  text-align: justify;
+  background-color: rgba(206, 204, 202, 0.8);
+}
