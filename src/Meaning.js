@@ -6,16 +6,16 @@ export default function Meaning(props) {
   let exampleText;
   if (props.obj_meaning.example) {
     exampleText = (
-      <div className="example">
+      <div className="example-text">
         <p>{props.obj_meaning.example}</p>
       </div>
     );
   }
 
   return (
-    <div className="meaning">
+    <div className="meaning-text">
       <h3>{props.obj_meaning.partOfSpeech}</h3>
-      <div className="definition">
+      <div className="definition-text">
         <p>{props.obj_meaning.definition}</p>
       </div>
       {exampleText}

@@ -1,16 +1,17 @@
 .Photos img {
   border-radius: 6px;
+  margin-bottom: 22px;
 }
 
 .Photos img:hover {
-  transform: scale(1.2);
-  transition: all 200ms ease-in-out;
+  transform: scale(1.5);
+  transition: all 250ms ease-in-out;
 }
 
 .Photos h1 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.6);
-  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 30px;
 }

@@ -57,3 +57,30 @@ body {
   text-align: center;
   margin: 30px 0;
 }
+
+.App-footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.App-footer a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width: 690px) {
+  .App-header section {
+    display: block;
+    background-color: rgba(243, 240, 235, 0.8);
+    border-radius: 10px;
+    border: 3px solid rgba(126, 124, 124, 0.2);
+    padding: 40px;
+    margin: 40px 0;
+  }
+
+  .App-header section h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

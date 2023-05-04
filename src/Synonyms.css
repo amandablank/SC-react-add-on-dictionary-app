@@ -1,16 +1,13 @@
 .Synonyms ul {
-  list-style-type: circle;
+  list-style-type: none;
   margin: 0 auto;
   padding: 0;
   font-size: 18px;
+  line-height: 2;
 }
 
-.Synonyms li {
-  padding-top: 6px;
-}
-
-section .Synonyms {
-  padding: 0 auto;
-  text-align: justify;
-  background-color: rgba(206, 204, 202, 0.8);
+section.Synonyms {
+  text-align: center;
+  background-color: rgba(252, 236, 220, 0.8);
+  max-width: 50%;
 }

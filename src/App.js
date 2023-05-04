@@ -14,7 +14,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Amanda Cristina Blankenburg</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/amanda-cristina-blankenburg-81b410213/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Amanda Cristina Blankenburg
+            </a>
+          </small>
         </footer>
       </div>
     </div>

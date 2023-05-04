@@ -19,17 +19,13 @@
   color: rgba(117, 115, 115, 0.8);
 }
 
-.Dictionary div {
+.Dictionary .dictionary-icon {
   padding-top: 6px;
-  padding-bottom: 30px;
+  padding-bottom: 44px;
 }
 
-.book-icon {
+.dictionary-img {
   max-width: 80px;
   display: block;
   margin: 0 auto;
-}
-
-div .book-icon {
-  padding-bottom: 16px;
 }

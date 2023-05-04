@@ -36,11 +36,11 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <section>
-        <div>
+        <div className="dictionary-icon">
           <img
             src={icon}
             alt="dictionary-search"
-            className="book-icon img-fluid"
+            className="dictionary-img img-fluid"
           />
         </div>
         <form onSubmit={search}>
