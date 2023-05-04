@@ -39,7 +39,7 @@ body {
 
 .App-header section {
   display: block;
-  background-color: rgba(243, 240, 235, 0.8);
+  background-color: rgba(243, 240, 235, 0.7);
   border-radius: 10px;
   border: 3px solid rgba(126, 124, 124, 0.2);
   padding: 44px;
